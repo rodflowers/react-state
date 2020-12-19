@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Game from './Game';
+// import Rando from './Rando';
+// import Button from './Button';
+// import BrokenClick from './BrokenClick';
+// import NumberSeven from './NumberSeven';
+import RollDice from './dice/RollDice';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Game color='Red' numer={43}/>
+      <Rando maxNum={7}/>
+      <Button />
+      <BrokenClick />
+      <NumberSeven /> */}
+      <RollDice />
     </div>
   );
-}
+} 
 
 export default App;
