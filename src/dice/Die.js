@@ -7,7 +7,7 @@ class Die extends Component {
       <div>
         <i
           className={`Die fas fa-dice-${this.props.face}
-                 ${this.props.rolling ? 'shaking' : ''}`}
+                 ${this.props.rolling ? "shaking" : ""}`}
         />
       </div>
     );
